@@ -56,15 +56,15 @@ class ViewController: UIViewController {
         )
         
         let action = UIAlertAction(
-            title: "Awesome", style: .default, handler: nil
+            title: "Awesome", style: .default, handler: {
+                action in
+                self.startNewRound()
+            }
         )
         
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
-        
-        startNewRound()
-        
     }
     
     @IBAction func sliderMoved(_ slider: UISlider) {
