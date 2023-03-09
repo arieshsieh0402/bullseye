@@ -18,13 +18,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var roundLabel: UILabel!
-
+    @IBOutlet weak var startOverButton : UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let roundedValue = slider.value.rounded()
         currentValue = Int(roundedValue)
-        targetValue = Int.random(in: 1...100)
-        updateLabels()
+//        targetValue = Int.random(in: 1...100)
+//        updateLabels()
+        startNewGame()
     }
     
     @IBAction func showAlert () {
@@ -73,6 +75,7 @@ class ViewController: UIViewController {
         print("The value of slider is now \(roundedValue)")
         currentValue = Int(roundedValue)
     }
+
     
     func startNewRound() {
         round += 1
@@ -86,6 +89,12 @@ class ViewController: UIViewController {
         targetLabel.text = String(targetValue)
         scoreLabel.text = String(score)
         roundLabel.text = String(round)
+    }
+    
+    @IBAction func startNewGame () {
+        score = 0
+        round = 0
+        startNewRound()
     }
 
 }
