@@ -16,6 +16,7 @@
 		926FEB0A29A267F600246872 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FEB0929A267F600246872 /* BullsEyeTests.swift */; };
 		926FEB1429A267F600246872 /* BullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FEB1329A267F600246872 /* BullsEyeUITests.swift */; };
 		926FEB1629A267F600246872 /* BullsEyeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FEB1529A267F600246872 /* BullsEyeUITestsLaunchTests.swift */; };
+		92D56D1D29B9D677007E42A5 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D56D1C29B9D677007E42A5 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		926FEB0F29A267F600246872 /* BullsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		926FEB1329A267F600246872 /* BullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITests.swift; sourceTree = "<group>"; };
 		926FEB1529A267F600246872 /* BullsEyeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92D56D1C29B9D677007E42A5 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				926FEAF229A267F500246872 /* AppDelegate.swift */,
+				92D56D1C29B9D677007E42A5 /* AboutViewController.swift */,
 				926FEAF429A267F500246872 /* SceneDelegate.swift */,
 				926FEAF629A267F500246872 /* ViewController.swift */,
 				926FEAF829A267F500246872 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				926FEAF729A267F500246872 /* ViewController.swift in Sources */,
 				926FEAF329A267F500246872 /* AppDelegate.swift in Sources */,
+				92D56D1D29B9D677007E42A5 /* AboutViewController.swift in Sources */,
 				926FEAF529A267F500246872 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

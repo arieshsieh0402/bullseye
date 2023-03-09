@@ -24,8 +24,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let roundedValue = slider.value.rounded()
         currentValue = Int(roundedValue)
-//        targetValue = Int.random(in: 1...100)
-//        updateLabels()
         startNewGame()
     }
     
